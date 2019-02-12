@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>加载文件</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>30</y>
+      <width>120</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>夷陵之战（吴）</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>夷陵之战（蜀）</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>荆州攻略战</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>荆州镇压战</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>街亭之战（魏）</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>街亭之战（吴）</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>五丈原之战（魏）</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>五丈原之战（蜀）</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>天水之战</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>合肥之战（魏）</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>合肥之战（吴）</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>90</y>
+      <width>1161</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>111</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>222</string>
+     </property>
+    </column>
+   </widget>
+   <zorder>comboBox</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>tableWidget</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
